@@ -1,22 +1,32 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 import json
+import threading
+
+# Importujemy naszą funkcję-robota
+from scraper import uruchom_polowanie
 
 app = Flask(__name__)
 
-# Ta sama ścieżka do pliku z wynikami, co w scraperze
-OUTPUT_FILE = '/var/data/wyniki.json'
+# Ta sama ścieżka, co w scraperze
+OUTPUT_FILE = '/tmp/wyniki.json'
 
 @app.route('/')
 def index():
-    print(f"--- Strona odświeżona. Wczytuję ostatnie wyniki z pliku '{OUTPUT_FILE}'... ---")
-    
     dane_rekomendacji = []
     try:
         with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
             dane_rekomendacji = json.load(f)
-    except FileNotFoundError:
-        print(f"   -> Plik '{OUTPUT_FILE}' nie został jeszcze utworzony.")
-    except json.JSONDecodeError:
-        print(f"   -> Błąd odczytu pliku '{OUTPUT_FILE}'.")
-
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass # Ignorujemy błędy, jeśli plik nie istnieje lub jest pusty
     return render_template('index.html', rekomendacje=dane_rekomendacji)
+
+@app.route('/uruchom-robota')
+def trigger_scrape_endpoint():
+    def run_in_background():
+        print("--- Otrzymano sygnał do uruchomienia robota w tle... ---")
+        uruchom_polowanie()
+
+    thread = threading.Thread(target=run_in_background)
+    thread.start()
+    
+    return jsonify({"status": "Robot uruchomiony w tle."}), 202
