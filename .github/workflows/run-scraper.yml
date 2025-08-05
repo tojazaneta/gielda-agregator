@@ -30,7 +30,7 @@ jobs:
         run: playwright install chromium
 
       - name: 5. Uruchom głównego robota
-        run: python scraper.py
+        run: python -u scraper.py
 
       - name: 6. Wyślij zaktualizowaną stronę na GitHub
         run: |
