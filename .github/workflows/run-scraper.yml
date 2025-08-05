@@ -1,0 +1,45 @@
+name: Uruchom Nocnego Robota
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    # --- TAJNA BROŃ: Dajemy robotowi pozwolenie na zapis ---
+    permissions:
+      contents: write
+    # -------------------------------------------------------------
+
+    steps:
+      - name: 1. Pobierz kod repozytorium
+        uses: actions/checkout@v4
+
+      - name: 2. Ustaw środowisko Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 3. Zainstaluj biblioteki
+        run: pip install -r requirements.txt
+
+      - name: 4. Zainstaluj przeglądarkę dla Playwright
+        run: playwright install chromium
+
+      - name: 5. Uruchom głównego robota
+        run: python scraper.py
+
+      - name: 6. Wyślij zaktualizowaną stronę na GitHub
+        run: |
+          git config --global user.name "GitHub Actions Robot"
+          git config --global user.email "actions@github.com"
+          git add index.html
+          if git diff --staged --quiet; then
+            echo "Brak zmian w pliku index.html, kończę pracę."
+          else
+            git commit -m "Automatyczna aktualizacja danych giełdowych"
+            git push
+          fi
