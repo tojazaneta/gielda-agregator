@@ -50,7 +50,6 @@
             border-bottom: 1px solid #F0E4D3;
         }
         th {
-            /* Dodanie scope i wyraźniejszego fontu */
             font-weight: 700;
         }
         thead { 
@@ -94,7 +93,6 @@
                 padding: 8px 12px;
             }
         }
-
     </style>
 </head>
 <body>
@@ -132,13 +130,13 @@
                 tbody.innerHTML = '';
                 data.forEach(rek => {
                     const tr = document.createElement('tr');
-
+                    // Zamiana nazw na zgodne z JSON
                     tr.innerHTML = `
-                        <td>${rek.nazwa}</td>
-                        <td class="rekomendacja-kupuj">${rek.rekomendacja_br}</td>
-                        <td class="rekomendacja-zdecydowanie-kupuj">${rek.rekomendacja_msn}</td>
+                        <td>${rek.name}</td>
+                        <td class="rekomendacja-kupuj">${rek.br_recommendation}</td>
+                        <td class="rekomendacja-zdecydowanie-kupuj">${rek.msn_recommendation}</td>
                         <td>${rek.analyst_count}</td>
-                        <td>${rek.cena}</td>
+                        <td>${rek.price}</td>
                         <td>${rek.cd_k}</td>
                     `;
                     tbody.appendChild(tr);

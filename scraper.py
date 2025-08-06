@@ -102,7 +102,6 @@ def main():
     try:
         with open('./Rekomendacje giełdowe', 'r', encoding='utf-8') as f:
             lines = f.readlines()
-
             for line in lines[2:]:  # skip first two lines (header likely)
                 fields = [field.strip() for field in line.strip().split('|')]
                 if len(fields) > 5 and fields[2].lower() == 'kupuj':
@@ -111,13 +110,12 @@ def main():
                         "br_recommendation": fields[2],
                         "cd_k": fields[5]
                     })
-
     except FileNotFoundError:
         print("CRITICAL ERROR: Input file not found!")
         return
 
     final_list = []
-    positive_keywords = ["kupuj", "zdecydowanie", "przeważaj"]
+    positive_keywords = ["kupuj", "kup", "zdecydowanie kup"]
 
     with sync_playwright() as p:
         for stock in stocks_to_check:
@@ -129,7 +127,6 @@ def main():
                 continue
 
             if any(keyword in msn_data['msn_recommendation'].lower() for keyword in positive_keywords):
-                # Merge initial data and scraped msn data
                 result = {
                     "name": stock['name'],
                     "br_recommendation": stock['br_recommendation'],
@@ -140,11 +137,12 @@ def main():
                 }
                 final_list.append(result)
 
-    # Save results to JSON file
+    # Overwrite wyniki.json with new results only
     with open('wyniki.json', 'w', encoding='utf-8') as f:
         json.dump(final_list, f, ensure_ascii=False, indent=4)
 
     print(f"Results successfully saved to 'wyniki.json'")
+
 
 if __name__ == "__main__":
     main()
