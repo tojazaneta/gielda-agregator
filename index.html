@@ -57,6 +57,29 @@
             color: #FAF7F3; 
             font-weight: 600;
         }
+        
+        th.sortable {
+            cursor: pointer;
+            position: relative;
+            user-select: none;
+        }
+        th.sortable:hover {
+            background-color: #C88F85;
+        }
+        .sort-arrow {
+            display: inline-block;
+            width: 1em;
+            text-align: center;
+            font-size: 1em;
+            margin-left: 8px;
+            color: #5D4037;
+            opacity: 0.5;
+            transition: opacity 0.2s ease-in-out;
+        }
+        th.sortable[aria-sort] .sort-arrow {
+            opacity: 1;
+        }
+        
         tbody tr:hover {
             background-color: #F0E4D3;
         }
@@ -76,32 +99,22 @@
             padding: 10px;
             border-radius: 4px;
         }
-        /* Responsywność - telefon */
         @media (max-width: 600px) {
-            body {
-                padding: 20px;
-                font-size: 14px;
-            }
-            h1 {
-                font-size: 1.5rem;
-            }
-            p.info {
-                font-size: 0.9rem;
-            }
-            table th, table td {
-                padding: 8px 12px;
-            }
+            body { padding: 20px; font-size: 14px; }
+            h1 { font-size: 1.5rem; }
+            p.info { font-size: 0.9rem; }
+            table th, table td { padding: 8px 12px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Cebulowy Agregator Giełdowy</h1>
+        <h1>🧅 Cebulowy Agregator Giełdowy 💲</h1>
         <p class="info" role="region" aria-label="Informacje o rekomendacjach giełdowych">
             Poniżej znajduje się lista do 10 spółek, które zostały wyselekcjonowane na podstawie analizy serwisu MSN Finanse. Spółka trafia na listę, jeśli spełnia <strong>jeden z poniższych, rygorystycznych warunków</strong>:
             <ul style="margin-top: 10px; padding-left: 20px; margin-bottom: 0;">
-                <li>Otrzymała rekomendację <strong>"zdecydowanie kupuj"</strong> i jej ocena jest oparta na opinii <strong>ponad 5 analityków</strong> (co najmniej 6).</li>
-                <li>Otrzymała rekomendację <strong>"kupuj"</strong> i jej ocena jest oparta na opinii <strong>ponad 10 analityków</strong> (co najmniej 11).</li>
+                <li>Otrzymała rekomendację <strong>"zdecydowanie kup"</strong> i jej ocena jest oparta na opinii <strong>ponad 5 analityków</strong> (co najmniej 6).</li>
+                <li>Otrzymała rekomendację <strong>"kup"</strong> i jej ocena jest oparta na opinii <strong>ponad 10 analityków</strong> (co najmniej 11).</li>
             </ul>
         </p>
         <div class="table-wrapper">
@@ -110,8 +123,8 @@
                     <tr>
                         <th scope="col">Nazwa Spółki</th>
                         <th scope="col">Rekomendacja (BiznesRadar)</th>
-                        <th scope="col">Rekomendacja (MSN Finanse)</th>
-                        <th scope="col">Liczba Analityków (MSN)</th>
+                        <th scope="col" class="sortable" data-key="msn_recommendation" aria-sort="none">Rekomendacja (MSN Finanse)<span class="sort-arrow" aria-hidden="true"></span></th>
+                        <th scope="col" class="sortable" data-key="analyst_count" aria-sort="none">Liczba Analityków (MSN)<span class="sort-arrow" aria-hidden="true"></span></th>
                         <th scope="col">Cena (MSN Finanse)</th>
                         <th scope="col">CD/K (BiznesRadar)</th>
                     </tr>
@@ -123,30 +136,80 @@
     </div>
     
     <script>
+        let tableData = [];
+        let currentSort = { key: null, direction: 'desc' };
+
+        const tbody = document.getElementById('dane-tabela');
+        const sortableHeaders = document.querySelectorAll('th.sortable');
+
+        function renderTable(data) {
+            tbody.innerHTML = '';
+            data.forEach(rek => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${rek.name}</td>
+                    <td class="rekomendacja-kupuj">${rek.br_recommendation}</td>
+                    <td class="rekomendacja-zdecydowanie-kupuj">${rek.msn_recommendation}</td>
+                    <td>${rek.analyst_count}</td>
+                    <td>${rek.price}</td>
+                    <td>${rek.cd_k}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+        
+        function updateSortIndicators() {
+            sortableHeaders.forEach(header => {
+                const arrow = header.querySelector('.sort-arrow');
+                if (header.dataset.key === currentSort.key) {
+                    const direction = currentSort.direction === 'asc' ? 'ascending' : 'descending';
+                    header.setAttribute('aria-sort', direction);
+                    arrow.textContent = currentSort.direction === 'asc' ? '▲' : '▼';
+                } else {
+                    header.setAttribute('aria-sort', 'none');
+                    arrow.textContent = '↕';
+                }
+            });
+        }
+        
+        function sortData(key) {
+            if (currentSort.key === key) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.key = key;
+                currentSort.direction = 'desc';
+            }
+
+            tableData.sort((a, b) => {
+                const valA = a[key];
+                const valB = b[key];
+                const direction = currentSort.direction === 'asc' ? 1 : -1;
+
+                if (typeof valA === 'number' && typeof valB === 'number') {
+                    return (valA - valB) * direction;
+                } else {
+                    return valA.toString().localeCompare(valB.toString()) * direction;
+                }
+            });
+
+            renderTable(tableData);
+            updateSortIndicators();
+        }
+
         fetch('wyniki.json')
             .then(response => {
                 if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
                 return response.json();
             })
             .then(data => {
-                const tbody = document.getElementById('dane-tabela');
-                tbody.innerHTML = '';
-                data.forEach(rek => {
-                    const tr = document.createElement('tr');
-
-                    tr.innerHTML = `
-                        <td>${rek.name}</td>
-                        <td class="rekomendacja-kupuj">${rek.br_recommendation}</td>
-                        <td class="rekomendacja-zdecydowanie-kupuj">${rek.msn_recommendation}</td>
-                        <td>${rek.analyst_count}</td>
-                        <td>${rek.price}</td>
-                        <td>${rek.cd_k}</td>
-                    `;
-                    tbody.appendChild(tr);
+                tableData = data;
+                renderTable(tableData);
+                updateSortIndicators();
+                sortableHeaders.forEach(header => {
+                    header.addEventListener('click', () => sortData(header.dataset.key));
                 });
             })
             .catch(error => {
-                const tbody = document.getElementById('dane-tabela');
                 tbody.innerHTML = `<tr><td colspan="6" class="error" role="alert">Nie udało się wczytać danych: ${error.message}</td></tr>`;
                 console.error("Błąd ładowania wyniki.json:", error);
             });
