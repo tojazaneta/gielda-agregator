@@ -24,14 +24,6 @@
         "analyst_count": 13
     },
     {
-        "name": "PCO (PEPCO)",
-        "br_recommendation": "akumuluj",
-        "cd_k": "-2,54%",
-        "price": "22,60",
-        "msn_recommendation": "Kup",
-        "analyst_count": 14
-    },
-    {
         "name": "JSW",
         "br_recommendation": "sprzedaj",
         "cd_k": "-29,20%",
@@ -70,14 +62,6 @@
         "price": "54,80",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 16
-    },
-    {
-        "name": "PEO (PEKAO)",
-        "br_recommendation": "trzymaj",
-        "cd_k": "-37,16%",
-        "price": "212,50",
-        "msn_recommendation": "Kup",
-        "analyst_count": 7
     },
     {
         "name": "AAPL (Apple)",
