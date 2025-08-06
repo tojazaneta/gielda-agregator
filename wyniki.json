@@ -1,82 +1,10 @@
 [
     {
-        "nazwa": "LPP",
-        "rekomendacja_br": "kupuj",
-        "cd_k": "+18,48%",
-        "cena": "16 205,00",
-        "rekomendacja_msn": "Zdecydowanie kup",
-        "analyst_count": 13
-    },
-    {
-        "nazwa": "DVL (DEVELIA)",
-        "rekomendacja_br": "kupuj",
-        "cd_k": "+2,85%",
-        "cena": "8,06",
-        "rekomendacja_msn": "Zdecydowanie kup",
-        "analyst_count": 5
-    },
-    {
-        "nazwa": "DOM (DOMDEV)",
-        "rekomendacja_br": "kupuj",
-        "cd_k": "+12,00%",
-        "cena": "240,00",
-        "rekomendacja_msn": "Zdecydowanie kup",
-        "analyst_count": 6
-    },
-    {
-        "nazwa": "MUR (MURAPOL)",
-        "rekomendacja_br": "kupuj",
-        "cd_k": "+21,63%",
-        "cena": "39,90",
-        "rekomendacja_msn": "Zdecydowanie kup",
-        "analyst_count": 5
-    },
-    {
-        "nazwa": "BFT (BENEFIT)",
-        "rekomendacja_br": "kupuj",
-        "cd_k": "+6,82%",
-        "cena": "3370,00",
-        "rekomendacja_msn": "Zdecydowanie kup",
-        "analyst_count": 5
-    },
-    {
-        "nazwa": "HUG (HUUUGE)",
-        "rekomendacja_br": "kupuj",
-        "cd_k": "+50,21%",
-        "cena": "19,24",
-        "rekomendacja_msn": "Zdecydowanie kup",
-        "analyst_count": 5
-    },
-    {
-        "nazwa": "WPL (WIRTUALNA)",
-        "rekomendacja_br": "kupuj",
-        "cd_k": "+48,11%",
-        "cena": "74,50",
-        "rekomendacja_msn": "Zdecydowanie kup",
-        "analyst_count": 5
-    },
-    {
-        "nazwa": "BNP (BNPPPL)",
-        "rekomendacja_br": "kupuj",
-        "cd_k": "+37,79%",
-        "cena": "102,00",
-        "rekomendacja_msn": "Zdecydowanie kup",
-        "analyst_count": 5
-    },
-    {
-        "nazwa": "LPP",
-        "rekomendacja_br": "kupuj",
-        "cd_k": "+43,17%",
-        "cena": "16 205,00",
-        "rekomendacja_msn": "Zdecydowanie kup",
-        "analyst_count": 13
-    },
-    {
-        "nazwa": "INPT (INPOST)",
-        "rekomendacja_br": "kupuj",
+        "name": "INPT (INPOST)",
+        "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
-        "cena": "55,10",
-        "rekomendacja_msn": "Zdecydowanie kup",
+        "price": "54,80",
+        "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 16
     }
 ]
