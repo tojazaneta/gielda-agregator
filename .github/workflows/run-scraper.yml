@@ -9,10 +9,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-    # --- SECRET WEAPON: Give the robot permission to write ---
     permissions:
       contents: write
-    # ------------------------------------------------------
 
     steps:
       - name: 1. Checkout repository code
@@ -36,6 +34,8 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Robot"
           git config --global user.email "actions@github.com"
+          # --- POPRAWKA: Najpierw pobierz najnowsze zmiany z repozytorium ---
+          git pull
           git add wyniki.json
           if git diff --staged --quiet; then
             echo "No changes in wyniki.json, finishing."
