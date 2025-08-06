@@ -153,9 +153,9 @@ def main():
     
     final_list = list(results_dict.values())
 
-    if len(final_list) > 30:
-        print(f"--- List contains {len(final_list)} items. Truncating to 30. ---")
-        final_list = final_list[:30]
+    if len(final_list) > 20:
+        print(f"--- List contains {len(final_list)} items. Truncating to 20. ---")
+        final_list = final_list[:20]
 
     with open('wyniki.json', 'w', encoding='utf-8') as f:
         json.dump(final_list, f, ensure_ascii=False, indent=4)

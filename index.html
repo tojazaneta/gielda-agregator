@@ -83,7 +83,6 @@
         tbody tr:hover {
             background-color: #F0E4D3;
         }
-        /* ZMIANA: Dodane style dla różnych rekomendacji */
         .rekomendacja-kupuj { 
             color: #28a745; 
             font-weight: bold; 
@@ -93,7 +92,7 @@
             font-weight: bold;
         }
         .rekomendacja-akumuluj {
-            color: #E69500; /* Ciemniejszy żółty/bursztynowy dla czytelności */
+            color: #E69500;
             font-weight: bold;
         }
         .rekomendacja-trzymaj {
@@ -123,7 +122,7 @@
     <div class="container">
         <h1>🧅 Cebulowy Agregator Giełdowy 💲</h1>
         <p class="info" role="region" aria-label="Informacje o rekomendacjach giełdowych">
-            Poniżej znajduje się lista do 30 spółek, które zostały wyselekcjonowane na podstawie analizy serwisu MSN Finanse. Spółka trafia na listę, jeśli spełnia <strong>jeden z poniższych, rygorystycznych warunków</strong>:
+            Poniżej znajduje się lista do 20 spółek, które zostały wyselekcjonowane na podstawie analizy serwisu MSN Finanse. Spółka trafia na listę, jeśli spełnia <strong>jeden z poniższych, rygorystycznych warunków</strong>:
             <ul style="margin-top: 10px; padding-left: 20px; margin-bottom: 0;">
                 <li>Otrzymała rekomendację <strong>"zdecydowanie kup"</strong> i jej ocena jest oparta na opinii <strong>ponad 5 analityków</strong> (co najmniej 6).</li>
                 <li>Otrzymała rekomendację <strong>"kup"</strong> i jej ocena jest oparta na opinii <strong>ponad 10 analityków</strong> (co najmniej 11).</li>
@@ -157,10 +156,9 @@
         function renderTable(data) {
             tbody.innerHTML = '';
             data.forEach(rek => {
-                // ZMIANA: Logika do dynamicznego przypisywania klasy CSS
                 let brClass = '';
                 if (rek.br_recommendation) {
-                    const brRec = rek.br_recommendation.toLowerCase(); // Sprawdzanie bez względu na wielkość liter
+                    const brRec = rek.br_recommendation.toLowerCase();
                     if (brRec === 'kupuj') {
                         brClass = 'rekomendacja-kupuj';
                     } else if (brRec === 'sprzedaj') {
@@ -173,7 +171,6 @@
                 }
 
                 const tr = document.createElement('tr');
-                // ZMIANA: Użycie dynamicznej klasy w komórce tabeli
                 tr.innerHTML = `
                     <td>${rek.name}</td>
                     <td class="${brClass}">${rek.br_recommendation}</td>
