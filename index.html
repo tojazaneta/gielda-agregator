@@ -83,9 +83,21 @@
         tbody tr:hover {
             background-color: #F0E4D3;
         }
+        /* ZMIANA: Dodane style dla różnych rekomendacji */
         .rekomendacja-kupuj { 
             color: #28a745; 
             font-weight: bold; 
+        }
+        .rekomendacja-sprzedaj {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .rekomendacja-akumuluj {
+            color: #E69500; /* Ciemniejszy żółty/bursztynowy dla czytelności */
+            font-weight: bold;
+        }
+        .rekomendacja-trzymaj {
+            color: #6c757d;
         }
         .rekomendacja-zdecydowanie-kupuj { 
             background-color: #E8F5E9;
@@ -145,10 +157,26 @@
         function renderTable(data) {
             tbody.innerHTML = '';
             data.forEach(rek => {
+                // ZMIANA: Logika do dynamicznego przypisywania klasy CSS
+                let brClass = '';
+                if (rek.br_recommendation) {
+                    const brRec = rek.br_recommendation.toLowerCase(); // Sprawdzanie bez względu na wielkość liter
+                    if (brRec === 'kupuj') {
+                        brClass = 'rekomendacja-kupuj';
+                    } else if (brRec === 'sprzedaj') {
+                        brClass = 'rekomendacja-sprzedaj';
+                    } else if (brRec === 'akumuluj') {
+                        brClass = 'rekomendacja-akumuluj';
+                    } else if (brRec === 'trzymaj') {
+                        brClass = 'rekomendacja-trzymaj';
+                    }
+                }
+
                 const tr = document.createElement('tr');
+                // ZMIANA: Użycie dynamicznej klasy w komórce tabeli
                 tr.innerHTML = `
                     <td>${rek.name}</td>
-                    <td class="rekomendacja-kupuj">${rek.br_recommendation}</td>
+                    <td class="${brClass}">${rek.br_recommendation}</td>
                     <td class="rekomendacja-zdecydowanie-kupuj">${rek.msn_recommendation}</td>
                     <td>${rek.analyst_count}</td>
                     <td>${rek.price}</td>
