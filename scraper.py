@@ -60,18 +60,6 @@ def generuj_strone(dane):
         f.write(html_content)
     print("✅ Plik index.html został wygenerowany pomyślnie.")
 
-# --- NOWA FUNKCJA: WYSYŁANIE NA GITHUB ---
-def wyslij_na_github():
-    print("--- Konfiguruję Git i wysyłam zmiany na GitHub ---")
-    os.system('git config --global user.name "Render-Robot"')
-    os.system('git config --global user.email "bot@render.com"')
-    os.system('git add index.html')
-    # Używamy --allow-empty, aby commit powstał nawet, jeśli dane się nie zmieniły
-    os.system('git commit --allow-empty -m "Aktualizacja danych giełdowych"')
-    # Poniższa komenda wymaga ustawienia sekretu na Render.com
-    os.system('git push https://<GITHUB_TOKEN>@github.com/tojazaneta/gielda-agregator.git')
-    print("✅ Zmiany zostały wysłane na GitHub.")
-
 def main():
     print("--- Rozpoczynam nocne polowanie i budowanie strony... ---")
     spolki_do_sprawdzenia = []
@@ -97,7 +85,6 @@ def main():
                 finalna_lista.append(spolka)
 
     generuj_strone(finalna_lista)
-    wyslij_na_github()
     print("--- Misja zakończona sukcesem! ---")
 
 if __name__ == "__main__":
