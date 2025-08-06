@@ -28,7 +28,7 @@
             padding: 20px; 
             margin-bottom: 30px;
             border-radius: 8px;
-            color: #333; /* poprawiona czytelność */
+            color: #333;
         }
         .table-wrapper {
             overflow-x: auto;
@@ -76,7 +76,6 @@
             padding: 10px;
             border-radius: 4px;
         }
-
         /* Responsywność - telefon */
         @media (max-width: 600px) {
             body {
@@ -99,13 +98,17 @@
     <div class="container">
         <h1>Cebulowy Agregator Giełdowy</h1>
         <p class="info" role="region" aria-label="Informacje o rekomendacjach giełdowych">
-            Poniżej znajduje się do 10 spółek, które miały rekomendację "Kupuj" w BiznesRadar, pozytywną rekomendację w serwisie MSN Finanse oraz ich ocena była oparta na opinii co najmniej 7 analityków.
+            Poniżej znajduje się lista do 10 spółek, które zostały wyselekcjonowane na podstawie analizy serwisu MSN Finanse. Spółka trafia na listę, jeśli spełnia <strong>jeden z poniższych, rygorystycznych warunków</strong>:
+            <ul style="margin-top: 10px; padding-left: 20px; margin-bottom: 0;">
+                <li>Otrzymała rekomendację <strong>"zdecydowanie kupuj"</strong> i jej ocena jest oparta na opinii <strong>ponad 5 analityków</strong> (co najmniej 6).</li>
+                <li>Otrzymała rekomendację <strong>"kupuj"</strong> i jej ocena jest oparta na opinii <strong>ponad 10 analityków</strong> (co najmniej 11).</li>
+            </ul>
         </p>
         <div class="table-wrapper">
             <table aria-label="Tabela rekomendacji giełdowych">
                 <thead>
                     <tr>
-                        <th scope="col">Nazwa Spółki (Ticker)</th>
+                        <th scope="col">Nazwa Spółki</th>
                         <th scope="col">Rekomendacja (BiznesRadar)</th>
                         <th scope="col">Rekomendacja (MSN Finanse)</th>
                         <th scope="col">Liczba Analityków (MSN)</th>
@@ -130,7 +133,7 @@
                 tbody.innerHTML = '';
                 data.forEach(rek => {
                     const tr = document.createElement('tr');
-                    // Zamiana nazw na zgodne z JSON
+
                     tr.innerHTML = `
                         <td>${rek.name}</td>
                         <td class="rekomendacja-kupuj">${rek.br_recommendation}</td>

@@ -1,10 +1,82 @@
 [
     {
+        "name": "LPP",
+        "br_recommendation": "kupuj",
+        "cd_k": "+18,48%",
+        "price": "16 385,00",
+        "msn_recommendation": "Zdecydowanie kup",
+        "analyst_count": 13
+    },
+    {
+        "name": "PEO (PEKAO)",
+        "br_recommendation": "kupuj",
+        "cd_k": "+2,01%",
+        "price": "212,50",
+        "msn_recommendation": "Kup",
+        "analyst_count": 13
+    },
+    {
+        "name": "PKO (PKOBP)",
+        "br_recommendation": "kupuj",
+        "cd_k": "+9,49%",
+        "price": "79,40",
+        "msn_recommendation": "Kup",
+        "analyst_count": 13
+    },
+    {
+        "name": "PGE",
+        "br_recommendation": "kupuj",
+        "cd_k": "+6,38%",
+        "price": "11,90",
+        "msn_recommendation": "Kup",
+        "analyst_count": 7
+    },
+    {
+        "name": "TPE (TAURONPE)",
+        "br_recommendation": "kupuj",
+        "cd_k": "+28,33%",
+        "price": "8,34",
+        "msn_recommendation": "Kup",
+        "analyst_count": 7
+    },
+    {
+        "name": "ZAB (ZABKA)",
+        "br_recommendation": "kupuj",
+        "cd_k": "+75,00%",
+        "price": "21,72",
+        "msn_recommendation": "Kup",
+        "analyst_count": 10
+    },
+    {
+        "name": "PCO (PEPCO)",
+        "br_recommendation": "kupuj",
+        "cd_k": "+20,16%",
+        "price": "22,60",
+        "msn_recommendation": "Kup",
+        "analyst_count": 14
+    },
+    {
+        "name": "OPL (ORANGEPL)",
+        "br_recommendation": "kupuj",
+        "cd_k": "+20,28%",
+        "price": "8,63",
+        "msn_recommendation": "Kup",
+        "analyst_count": 8
+    },
+    {
         "name": "INPT (INPOST)",
         "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
         "price": "54,80",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 16
+    },
+    {
+        "name": "ALR (ALIOR)",
+        "br_recommendation": "kupuj",
+        "cd_k": "-7,26%",
+        "price": "106,85",
+        "msn_recommendation": "Kup",
+        "analyst_count": 7
     }
 ]
