@@ -8,12 +8,36 @@
         "analyst_count": 13
     },
     {
+        "name": "DOM (DOMDEV)",
+        "br_recommendation": "kupuj",
+        "cd_k": "+12,00%",
+        "price": "243,50",
+        "msn_recommendation": "Zdecydowanie kup",
+        "analyst_count": 6
+    },
+    {
         "name": "PEO (PEKAO)",
         "br_recommendation": "kupuj",
         "cd_k": "+2,01%",
         "price": "212,50",
         "msn_recommendation": "Kup",
         "analyst_count": 13
+    },
+    {
+        "name": "PCO (PEPCO)",
+        "br_recommendation": "akumuluj",
+        "cd_k": "-2,54%",
+        "price": "22,60",
+        "msn_recommendation": "Kup",
+        "analyst_count": 14
+    },
+    {
+        "name": "JSW",
+        "br_recommendation": "sprzedaj",
+        "cd_k": "-29,20%",
+        "price": "534,05",
+        "msn_recommendation": "Kup",
+        "analyst_count": 17
     },
     {
         "name": "PKO (PKOBP)",
@@ -24,28 +48,12 @@
         "analyst_count": 13
     },
     {
-        "name": "PGE",
-        "br_recommendation": "kupuj",
-        "cd_k": "+6,38%",
-        "price": "11,90",
+        "name": "JMT (JERONIMO)",
+        "br_recommendation": "trzymaj",
+        "cd_k": "+6,05%",
+        "price": "88,70",
         "msn_recommendation": "Kup",
-        "analyst_count": 7
-    },
-    {
-        "name": "TPE (TAURONPE)",
-        "br_recommendation": "kupuj",
-        "cd_k": "+28,33%",
-        "price": "8,34",
-        "msn_recommendation": "Kup",
-        "analyst_count": 7
-    },
-    {
-        "name": "ZAB (ZABKA)",
-        "br_recommendation": "kupuj",
-        "cd_k": "+75,00%",
-        "price": "21,72",
-        "msn_recommendation": "Kup",
-        "analyst_count": 10
+        "analyst_count": 20
     },
     {
         "name": "PCO (PEPCO)",
@@ -56,14 +64,6 @@
         "analyst_count": 14
     },
     {
-        "name": "OPL (ORANGEPL)",
-        "br_recommendation": "kupuj",
-        "cd_k": "+20,28%",
-        "price": "8,63",
-        "msn_recommendation": "Kup",
-        "analyst_count": 8
-    },
-    {
         "name": "INPT (INPOST)",
         "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
@@ -72,10 +72,10 @@
         "analyst_count": 16
     },
     {
-        "name": "ALR (ALIOR)",
-        "br_recommendation": "kupuj",
-        "cd_k": "-7,26%",
-        "price": "106,85",
+        "name": "PEO (PEKAO)",
+        "br_recommendation": "trzymaj",
+        "cd_k": "-37,16%",
+        "price": "212,50",
         "msn_recommendation": "Kup",
         "analyst_count": 7
     },
