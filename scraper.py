@@ -128,8 +128,9 @@ def main():
             msn_rec_lower = msn_data['msn_recommendation'].lower()
             analyst_count = msn_data['analyst_count']
 
-            cond1 = (msn_rec_lower == "zdecydowanie kupuj" and analyst_count > 5)
-            cond2 = (msn_rec_lower == "kupuj" and analyst_count > 10)
+            # FIX: Changed strings to match MSN's actual output
+            cond1 = (msn_rec_lower == "zdecydowanie kup" and analyst_count > 5)
+            cond2 = (msn_rec_lower == "kup" and analyst_count > 10)
 
             if cond1 or cond2:
                 result = {
@@ -141,7 +142,6 @@ def main():
                     "analyst_count": msn_data['analyst_count']
                 }
                 final_list.append(result)
-                # --- NEW: Log entry addition ---
                 print(f"   ✅ Added: {result['name']}. Current count: {len(final_list)}/10")
         
         context.close()
