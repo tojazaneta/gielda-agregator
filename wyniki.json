@@ -78,5 +78,29 @@
         "price": "106,85",
         "msn_recommendation": "Kup",
         "analyst_count": 7
+    },
+    {
+        "name": "AAPL (Apple)",
+        "br_recommendation": "Kupuj",
+        "cd_k": "",
+        "price": "213,90",
+        "msn_recommendation": "Kup",
+        "analyst_count": 45
+    },
+    {
+        "name": "NVDA (Nvidia)",
+        "br_recommendation": "Kupuj",
+        "cd_k": "",
+        "price": "179,63",
+        "msn_recommendation": "Zdecydowanie kup",
+        "analyst_count": 66
+    },
+    {
+        "name": "MSFT (Microsoft)",
+        "br_recommendation": "Kupuj",
+        "cd_k": "",
+        "price": "524,69",
+        "msn_recommendation": "Zdecydowanie kup",
+        "analyst_count": 58
     }
 ]
