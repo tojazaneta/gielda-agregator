@@ -3,7 +3,7 @@
         "name": "LPP",
         "br_recommendation": "kupuj",
         "cd_k": "+18,48%",
-        "price": "16 965,00",
+        "price": "17 050,00",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 13
     },
@@ -11,7 +11,7 @@
         "name": "DOM (DOMDEV)",
         "br_recommendation": "trzymaj",
         "cd_k": "-19,99%",
-        "price": "242,50",
+        "price": "245,00",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
@@ -19,7 +19,7 @@
         "name": "PEO (PEKAO)",
         "br_recommendation": "trzymaj",
         "cd_k": "-37,16%",
-        "price": "182,85",
+        "price": "181,00",
         "msn_recommendation": "Kup",
         "analyst_count": 13
     },
@@ -35,7 +35,7 @@
         "name": "PKO (PKOBP)",
         "br_recommendation": "kupuj",
         "cd_k": "-19,90%",
-        "price": "71,14",
+        "price": "71,62",
         "msn_recommendation": "Kup",
         "analyst_count": 13
     },
@@ -51,7 +51,7 @@
         "name": "PCO (PEPCO)",
         "br_recommendation": "kupuj",
         "cd_k": "+20,16%",
-        "price": "20,75",
+        "price": "20,61",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -59,7 +59,7 @@
         "name": "INPT (INPOST)",
         "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
-        "price": "48,50",
+        "price": "47,14",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 16
     },
@@ -67,15 +67,15 @@
         "name": "AAPL (Apple)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "229,72",
+        "price": "238,47",
         "msn_recommendation": "Kup",
-        "analyst_count": 44
+        "analyst_count": 45
     },
     {
         "name": "NVDA (Nvidia)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "170,78",
+        "price": "170,62",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 65
     },
@@ -83,7 +83,7 @@
         "name": "MSFT (Microsoft)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "505,12",
+        "price": "505,35",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 56
     },
@@ -91,7 +91,7 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "211,99",
+        "price": "231,10",
         "msn_recommendation": "Kup",
         "analyst_count": 66
     },
@@ -99,7 +99,7 @@
         "name": "AMZN (Amazon)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "225,34",
+        "price": "225,99",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 67
     },
@@ -107,7 +107,7 @@
         "name": "DAVE (Dave Inc.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "210,14",
+        "price": "204,79",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 7
     },
@@ -115,7 +115,7 @@
         "name": "LEU (Centrus Energy Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "203,89",
+        "price": "201,54",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -123,7 +123,7 @@
         "name": "KTOS (Kratos Defense & Security)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "66,09",
+        "price": "64,50",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 15
     },
@@ -131,7 +131,7 @@
         "name": "WGS (GeneDx Holdings Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "128,18",
+        "price": "127,22",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 7
     },
@@ -139,7 +139,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "151,26",
+        "price": "146,49",
         "msn_recommendation": "Kup",
         "analyst_count": 25
     },
@@ -147,7 +147,7 @@
         "name": "ZAL (Zalando SE)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "98,88",
+        "price": "101,75",
         "msn_recommendation": "Kup",
         "analyst_count": 25
     },
@@ -155,7 +155,7 @@
         "name": "CSL (CSL)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "205,98",
+        "price": "207,52",
         "msn_recommendation": "Kup",
         "analyst_count": 17
     }
