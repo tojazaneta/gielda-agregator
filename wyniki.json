@@ -61,7 +61,7 @@
         "cd_k": "",
         "price": "178,88",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 64
+        "analyst_count": 65
     },
     {
         "name": "MSFT (Microsoft)",
@@ -77,7 +77,7 @@
         "cd_k": "",
         "price": "299,65",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 66
+        "analyst_count": 65
     },
     {
         "name": "AMZN (Amazon)",
@@ -85,7 +85,7 @@
         "cd_k": "",
         "price": "220,69",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 67
+        "analyst_count": 66
     },
     {
         "name": "DAVE (Dave Inc.)",
@@ -123,7 +123,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "133,66",
+        "price": "133,63",
         "msn_recommendation": "Kup",
         "analyst_count": 25
     },
