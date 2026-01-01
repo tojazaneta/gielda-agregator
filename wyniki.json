@@ -51,7 +51,7 @@
         "name": "AAPL (Apple)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "273,08",
+        "price": "271,86",
         "msn_recommendation": "Kup",
         "analyst_count": 48
     },
@@ -59,7 +59,7 @@
         "name": "NVDA (Nvidia)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "187,54",
+        "price": "186,50",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 64
     },
@@ -67,7 +67,7 @@
         "name": "MSFT (Microsoft)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "487,48",
+        "price": "483,62",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 57
     },
@@ -75,7 +75,7 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "314,55",
+        "price": "313,80",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 67
     },
@@ -83,7 +83,7 @@
         "name": "AMZN (Amazon)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "232,53",
+        "price": "230,82",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 67
     },
@@ -123,7 +123,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "140,13",
+        "price": "137,97",
         "msn_recommendation": "Kup",
         "analyst_count": 25
     },
