@@ -3,7 +3,7 @@
         "name": "LPP",
         "br_recommendation": "kupuj",
         "cd_k": "+18,48%",
-        "price": "20 700,00",
+        "price": "20 500,00",
         "msn_recommendation": "Kup",
         "analyst_count": 13
     },
@@ -27,7 +27,7 @@
         "name": "JMT (JERONIMO)",
         "br_recommendation": "trzymaj",
         "cd_k": "+6,05%",
-        "price": "88,00",
+        "price": "84,70",
         "msn_recommendation": "Kup",
         "analyst_count": 19
     },
@@ -35,7 +35,7 @@
         "name": "PCO (PEPCO)",
         "br_recommendation": "kupuj",
         "cd_k": "+20,16%",
-        "price": "29,77",
+        "price": "29,29",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -43,7 +43,7 @@
         "name": "INPT (INPOST)",
         "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
-        "price": "58,75",
+        "price": "56,55",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 15
     },
@@ -51,7 +51,7 @@
         "name": "AAPL (Apple)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "261,05",
+        "price": "259,96",
         "msn_recommendation": "Kup",
         "analyst_count": 49
     },
@@ -59,15 +59,15 @@
         "name": "NVDA (Nvidia)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "185,81",
+        "price": "183,14",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 63
+        "analyst_count": 64
     },
     {
         "name": "MSFT (Microsoft)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "470,67",
+        "price": "459,38",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 57
     },
@@ -75,7 +75,7 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "336,41",
+        "price": "336,31",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 66
     },
@@ -83,7 +83,7 @@
         "name": "AMZN (Amazon)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "242,60",
+        "price": "236,65",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 67
     },
@@ -91,7 +91,7 @@
         "name": "DAVE (Dave Inc.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "211,72",
+        "price": "185,46",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 8
     },
@@ -99,7 +99,7 @@
         "name": "LEU (Centrus Energy Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "298,03",
+        "price": "307,57",
         "msn_recommendation": "Kup",
         "analyst_count": 16
     },
@@ -115,7 +115,7 @@
         "name": "WGS (GeneDx Holdings Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "109,84",
+        "price": "104,51",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 9
     },
@@ -123,7 +123,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "153,20",
+        "price": "156,47",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
@@ -131,7 +131,7 @@
         "name": "ZAL (Zalando SE)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "109,40",
+        "price": "109,60",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
@@ -139,7 +139,7 @@
         "name": "MUR (MURAPOL)",
         "br_recommendation": "kupuj",
         "cd_k": "+21,63%",
-        "price": "41,80",
+        "price": "41,00",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
@@ -147,7 +147,7 @@
         "name": "SLV (SELVITA)",
         "br_recommendation": "trzymaj",
         "cd_k": "+67,15%",
-        "price": "46,90",
+        "price": "45,50",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
@@ -155,7 +155,7 @@
         "name": "DVL (DEVELIA)",
         "br_recommendation": "kupuj",
         "cd_k": "+2,85%",
-        "price": "8,85",
+        "price": "8,84",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     }
