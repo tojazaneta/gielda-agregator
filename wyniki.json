@@ -29,7 +29,7 @@
         "cd_k": "+6,05%",
         "price": "86,75",
         "msn_recommendation": "Kup",
-        "analyst_count": 19
+        "analyst_count": 20
     },
     {
         "name": "PCO (PEPCO)",
@@ -45,7 +45,7 @@
         "cd_k": "+43,50%",
         "price": "57,80",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 15
+        "analyst_count": 16
     },
     {
         "name": "AAPL (Apple)",
@@ -69,7 +69,7 @@
         "cd_k": "",
         "price": "459,86",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 57
+        "analyst_count": 58
     },
     {
         "name": "GOOGL (Alphabet)",
@@ -123,7 +123,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "156,67",
+        "price": "156,64",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
