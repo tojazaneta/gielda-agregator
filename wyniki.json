@@ -3,7 +3,7 @@
         "name": "LPP",
         "br_recommendation": "kupuj",
         "cd_k": "+18,48%",
-        "price": "20 320,00",
+        "price": "19 650,00",
         "msn_recommendation": "Kup",
         "analyst_count": 13
     },
@@ -35,7 +35,7 @@
         "name": "PCO (PEPCO)",
         "br_recommendation": "kupuj",
         "cd_k": "+20,16%",
-        "price": "29,57",
+        "price": "29,41",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -43,7 +43,7 @@
         "name": "INPT (INPOST)",
         "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
-        "price": "57,80",
+        "price": "57,10",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 16
     },
@@ -144,18 +144,18 @@
         "analyst_count": 6
     },
     {
-        "name": "SLV (SELVITA)",
-        "br_recommendation": "trzymaj",
-        "cd_k": "+67,15%",
-        "price": "46,90",
+        "name": "DVL (DEVELIA)",
+        "br_recommendation": "kupuj",
+        "cd_k": "+2,85%",
+        "price": "9,00",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
     {
-        "name": "DVL (DEVELIA)",
+        "name": "BFT (BENEFIT)",
         "br_recommendation": "kupuj",
-        "cd_k": "+2,85%",
-        "price": "8,95",
+        "cd_k": "+6,82%",
+        "price": "3745,00",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     }
