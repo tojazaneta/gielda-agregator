@@ -93,13 +93,13 @@
         "cd_k": "",
         "price": "183,22",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 8
+        "analyst_count": 7
     },
     {
         "name": "LEU (Centrus Energy Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "263,47",
+        "price": "263,67",
         "msn_recommendation": "Kup",
         "analyst_count": 16
     },
@@ -123,7 +123,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "164,33",
+        "price": "164,36",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
