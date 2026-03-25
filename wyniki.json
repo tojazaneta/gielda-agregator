@@ -3,7 +3,7 @@
         "name": "LPP",
         "br_recommendation": "kupuj",
         "cd_k": "+18,48%",
-        "price": "19 500,00",
+        "price": "19 355,00",
         "msn_recommendation": "Kup",
         "analyst_count": 12
     },
@@ -35,7 +35,7 @@
         "name": "PCO (PEPCO)",
         "br_recommendation": "kupuj",
         "cd_k": "+20,16%",
-        "price": "25,43",
+        "price": "25,63",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -43,7 +43,7 @@
         "name": "INPT (INPOST)",
         "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
-        "price": "63,70",
+        "price": "64,10",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 13
     },
@@ -51,7 +51,7 @@
         "name": "AAPL (Apple)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "251,49",
+        "price": "251,64",
         "msn_recommendation": "Kup",
         "analyst_count": 48
     },
@@ -59,23 +59,23 @@
         "name": "NVDA (Nvidia)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "175,64",
+        "price": "175,20",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 57
+        "analyst_count": 60
     },
     {
         "name": "MSFT (Microsoft)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "383,00",
+        "price": "372,74",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 56
+        "analyst_count": 57
     },
     {
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "299,02",
+        "price": "289,20",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 68
     },
@@ -83,7 +83,7 @@
         "name": "AMZN (Amazon)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "210,14",
+        "price": "207,24",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 67
     },
@@ -91,7 +91,7 @@
         "name": "DAVE (Dave Inc.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "215,36",
+        "price": "206,40",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 9
     },
@@ -99,7 +99,7 @@
         "name": "LEU (Centrus Energy Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "193,61",
+        "price": "195,84",
         "msn_recommendation": "Kup",
         "analyst_count": 16
     },
@@ -115,7 +115,7 @@
         "name": "WGS (GeneDx Holdings Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "72,14",
+        "price": "68,67",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 9
     },
@@ -123,7 +123,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "152,46",
+        "price": "152,68",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
@@ -131,7 +131,7 @@
         "name": "ZAL (Zalando SE)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "94,50",
+        "price": "92,04",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
@@ -139,24 +139,24 @@
         "name": "MUR (MURAPOL)",
         "br_recommendation": "kupuj",
         "cd_k": "+21,63%",
-        "price": "38,70",
+        "price": "38,35",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
-    },
-    {
-        "name": "KGH (KGHM)",
-        "br_recommendation": "sprzedaj",
-        "cd_k": "-18,93%",
-        "price": "266,30",
-        "msn_recommendation": "Kup",
-        "analyst_count": 11
     },
     {
         "name": "ZAB (ZABKA)",
         "br_recommendation": "kupuj",
         "cd_k": "+75,00%",
-        "price": "21,01",
+        "price": "21,49",
         "msn_recommendation": "Kup",
         "analyst_count": 13
+    },
+    {
+        "name": "BFT (BENEFIT)",
+        "br_recommendation": "kupuj",
+        "cd_k": "+6,82%",
+        "price": "3310,00",
+        "msn_recommendation": "Zdecydowanie kup",
+        "analyst_count": 6
     }
 ]
