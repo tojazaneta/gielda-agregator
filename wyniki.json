@@ -43,7 +43,7 @@
         "name": "AAPL (Apple)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "271,35",
+        "price": "280,14",
         "msn_recommendation": "Kup",
         "analyst_count": 48
     },
@@ -51,7 +51,7 @@
         "name": "NVDA (Nvidia)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "199,57",
+        "price": "198,45",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 60
     },
@@ -59,7 +59,7 @@
         "name": "MSFT (Microsoft)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "407,78",
+        "price": "414,44",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 54
     },
@@ -67,23 +67,23 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "381,94",
+        "price": "383,22",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 67
+        "analyst_count": 66
     },
     {
         "name": "AMZN (Amazon)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "265,06",
+        "price": "268,26",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 65
+        "analyst_count": 64
     },
     {
         "name": "DAVE (Dave Inc.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "271,99",
+        "price": "272,65",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 9
     },
@@ -91,7 +91,7 @@
         "name": "LEU (Centrus Energy Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "210,96",
+        "price": "206,64",
         "msn_recommendation": "Kup",
         "analyst_count": 16
     },
@@ -107,7 +107,7 @@
         "name": "WGS (GeneDx Holdings Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "62,89",
+        "price": "65,38",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 9
     },
@@ -115,7 +115,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "156,58",
+        "price": "152,82",
         "msn_recommendation": "Kup",
         "analyst_count": 23
     },
