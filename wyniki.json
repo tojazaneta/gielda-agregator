@@ -3,7 +3,7 @@
         "name": "LPP",
         "br_recommendation": "kupuj",
         "cd_k": "+18,48%",
-        "price": "18 750,00",
+        "price": "18 570,00",
         "msn_recommendation": "Kup",
         "analyst_count": 13
     },
@@ -35,7 +35,7 @@
         "name": "INPT (INPOST)",
         "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
-        "price": "64,95",
+        "price": "65,40",
         "msn_recommendation": "Kup",
         "analyst_count": 12
     },
@@ -45,7 +45,7 @@
         "cd_k": "",
         "price": "298,01",
         "msn_recommendation": "Kup",
-        "analyst_count": 48
+        "analyst_count": 47
     },
     {
         "name": "NVDA (Nvidia)",
@@ -131,7 +131,7 @@
         "name": "MUR (MURAPOL)",
         "br_recommendation": "kupuj",
         "cd_k": "+21,63%",
-        "price": "41,50",
+        "price": "41,30",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
@@ -139,7 +139,7 @@
         "name": "ZAB (ZABKA)",
         "br_recommendation": "kupuj",
         "cd_k": "+75,00%",
-        "price": "25,95",
+        "price": "26,13",
         "msn_recommendation": "Kup",
         "analyst_count": 15
     },
@@ -147,7 +147,7 @@
         "name": "ALR (ALIOR)",
         "br_recommendation": "kupuj",
         "cd_k": "-7,26%",
-        "price": "135,00",
+        "price": "135,50",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 8
     },
@@ -155,7 +155,7 @@
         "name": "PCO (PEPCO)",
         "br_recommendation": "kupuj",
         "cd_k": "+20,16%",
-        "price": "34,87",
+        "price": "34,73",
         "msn_recommendation": "Kup",
         "analyst_count": 13
     }
