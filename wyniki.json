@@ -61,7 +61,7 @@
         "cd_k": "",
         "price": "381,70",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 57
+        "analyst_count": 58
     },
     {
         "name": "GOOGL (Alphabet)",
@@ -77,7 +77,7 @@
         "cd_k": "",
         "price": "232,11",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 66
+        "analyst_count": 65
     },
     {
         "name": "DAVE (Dave Inc.)",
@@ -157,6 +157,6 @@
         "cd_k": "+20,16%",
         "price": "43,89",
         "msn_recommendation": "Kup",
-        "analyst_count": 14
+        "analyst_count": 13
     }
 ]
