@@ -45,7 +45,7 @@
         "cd_k": "",
         "price": "309,35",
         "msn_recommendation": "Kup",
-        "analyst_count": 44
+        "analyst_count": 46
     },
     {
         "name": "NVDA (Nvidia)",
@@ -85,7 +85,7 @@
         "cd_k": "",
         "price": "354,72",
         "msn_recommendation": "Kup",
-        "analyst_count": 13
+        "analyst_count": 12
     },
     {
         "name": "LEU (Centrus Energy Corp.)",
@@ -93,7 +93,7 @@
         "cd_k": "",
         "price": "186,26",
         "msn_recommendation": "Kup",
-        "analyst_count": 18
+        "analyst_count": 17
     },
     {
         "name": "KTOS (Kratos Defense & Security)",
@@ -141,7 +141,7 @@
         "cd_k": "+75,00%",
         "price": "31,30",
         "msn_recommendation": "Kup",
-        "analyst_count": 14
+        "analyst_count": 13
     },
     {
         "name": "PCO (PEPCO)",
