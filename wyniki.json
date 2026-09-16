@@ -3,7 +3,7 @@
         "name": "LPP",
         "br_recommendation": "kupuj",
         "cd_k": "+18,48%",
-        "price": "21 800,00",
+        "price": "21 960,00",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -35,7 +35,7 @@
         "name": "INPT (INPOST)",
         "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
-        "price": "67,15",
+        "price": "67,25",
         "msn_recommendation": "Kup",
         "analyst_count": 12
     },
@@ -43,7 +43,7 @@
         "name": "AAPL (Apple)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "333,08",
+        "price": "331,34",
         "msn_recommendation": "Kup",
         "analyst_count": 44
     },
@@ -51,7 +51,7 @@
         "name": "NVDA (Nvidia)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "210,96",
+        "price": "212,17",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 61
     },
@@ -59,7 +59,7 @@
         "name": "MSFT (Microsoft)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "505,41",
+        "price": "497,12",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 55
     },
@@ -67,7 +67,7 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "345,71",
+        "price": "341,43",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 62
     },
@@ -75,7 +75,7 @@
         "name": "AMZN (Amazon)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "253,54",
+        "price": "248,42",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 61
     },
@@ -83,15 +83,15 @@
         "name": "DAVE (Dave Inc.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "365,78",
+        "price": "374,67",
         "msn_recommendation": "Kup",
-        "analyst_count": 14
+        "analyst_count": 15
     },
     {
         "name": "LEU (Centrus Energy Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "146,25",
+        "price": "142,12",
         "msn_recommendation": "Kup",
         "analyst_count": 19
     },
@@ -99,7 +99,7 @@
         "name": "KTOS (Kratos Defense & Security)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "47,58",
+        "price": "47,62",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 21
     },
@@ -107,7 +107,7 @@
         "name": "WGS (GeneDx Holdings Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "89,74",
+        "price": "94,64",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 9
     },
@@ -115,7 +115,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "125,00",
+        "price": "123,62",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
@@ -123,15 +123,15 @@
         "name": "ZAL (Zalando SE)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "98,06",
+        "price": "95,50",
         "msn_recommendation": "Kup",
-        "analyst_count": 24
+        "analyst_count": 23
     },
     {
         "name": "MUR (MURAPOL)",
         "br_recommendation": "kupuj",
         "cd_k": "+21,63%",
-        "price": "36,80",
+        "price": "37,10",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
@@ -139,7 +139,7 @@
         "name": "ZAB (ZABKA)",
         "br_recommendation": "kupuj",
         "cd_k": "+75,00%",
-        "price": "31,57",
+        "price": "31,50",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -147,7 +147,7 @@
         "name": "PCO (PEPCO)",
         "br_recommendation": "kupuj",
         "cd_k": "+20,16%",
-        "price": "41,03",
+        "price": "41,70",
         "msn_recommendation": "Kup",
         "analyst_count": 13
     },
