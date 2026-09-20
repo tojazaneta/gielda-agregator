@@ -53,7 +53,7 @@
         "cd_k": "",
         "price": "222,27",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 61
+        "analyst_count": 62
     },
     {
         "name": "MSFT (Microsoft)",
@@ -85,7 +85,7 @@
         "cd_k": "",
         "price": "337,82",
         "msn_recommendation": "Kup",
-        "analyst_count": 15
+        "analyst_count": 14
     },
     {
         "name": "LEU (Centrus Energy Corp.)",
@@ -101,7 +101,7 @@
         "cd_k": "",
         "price": "47,46",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 21
+        "analyst_count": 20
     },
     {
         "name": "WGS (GeneDx Holdings Corp.)",
