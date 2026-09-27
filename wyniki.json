@@ -77,7 +77,7 @@
         "cd_k": "",
         "price": "324,88",
         "msn_recommendation": "Kup",
-        "analyst_count": 14
+        "analyst_count": 15
     },
     {
         "name": "LEU (Centrus Energy Corp.)",
@@ -93,7 +93,7 @@
         "cd_k": "",
         "price": "45,62",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 20
+        "analyst_count": 21
     },
     {
         "name": "WGS (GeneDx Holdings Corp.)",
@@ -101,7 +101,7 @@
         "cd_k": "",
         "price": "88,40",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 8
+        "analyst_count": 9
     },
     {
         "name": "STZ (Constellation Brands)",
@@ -149,7 +149,7 @@
         "cd_k": "",
         "price": "735,00",
         "msn_recommendation": "Kup",
-        "analyst_count": 31
+        "analyst_count": 32
     },
     {
         "name": "WPL (WIRTUALNA)",
