@@ -37,7 +37,7 @@
         "cd_k": "+43,50%",
         "price": "66,00",
         "msn_recommendation": "Kup",
-        "analyst_count": 11
+        "analyst_count": 12
     },
     {
         "name": "AAPL (Apple)",
@@ -53,7 +53,7 @@
         "cd_k": "",
         "price": "229,28",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 61
+        "analyst_count": 62
     },
     {
         "name": "MSFT (Microsoft)",
@@ -93,7 +93,7 @@
         "cd_k": "",
         "price": "42,36",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 21
+        "analyst_count": 23
     },
     {
         "name": "WGS (GeneDx Holdings Corp.)",
@@ -101,7 +101,7 @@
         "cd_k": "",
         "price": "67,33",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 9
+        "analyst_count": 8
     },
     {
         "name": "STZ (Constellation Brands)",
