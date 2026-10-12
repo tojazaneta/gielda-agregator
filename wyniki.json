@@ -35,7 +35,7 @@
         "name": "INPT (INPOST)",
         "br_recommendation": "kupuj",
         "cd_k": "+43,50%",
-        "price": "66,00",
+        "price": "66,05",
         "msn_recommendation": "Kup",
         "analyst_count": 12
     },
@@ -115,7 +115,7 @@
         "name": "ZAL (Zalando SE)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "105,20",
+        "price": "106,60",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
@@ -131,7 +131,7 @@
         "name": "ZAB (ZABKA)",
         "br_recommendation": "kupuj",
         "cd_k": "+75,00%",
-        "price": "31,70",
+        "price": "31,71",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -139,7 +139,7 @@
         "name": "PCO (PEPCO)",
         "br_recommendation": "kupuj",
         "cd_k": "+20,16%",
-        "price": "43,82",
+        "price": "43,96",
         "msn_recommendation": "Kup",
         "analyst_count": 13
     },
@@ -147,7 +147,7 @@
         "name": "PLTR (Palantir Technologies)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "790,70",
+        "price": "796,80",
         "msn_recommendation": "Kup",
         "analyst_count": 31
     },
@@ -155,7 +155,7 @@
         "name": "WPL (WIRTUALNA)",
         "br_recommendation": "akumuluj",
         "cd_k": "+25,53%",
-        "price": "56,20",
+        "price": "56,90",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     }
