@@ -3,7 +3,7 @@
         "name": "LPP",
         "br_recommendation": "kupuj",
         "cd_k": "+18,48%",
-        "price": "25 680,00",
+        "price": "25 260,00",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -35,7 +35,7 @@
         "name": "AAPL (Apple)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "340,97",
+        "price": "341,27",
         "msn_recommendation": "Kup",
         "analyst_count": 44
     },
@@ -43,7 +43,7 @@
         "name": "NVDA (Nvidia)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "226,32",
+        "price": "228,52",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 62
     },
@@ -51,7 +51,7 @@
         "name": "MSFT (Microsoft)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "541,15",
+        "price": "543,45",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 56
     },
@@ -59,7 +59,7 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "348,97",
+        "price": "349,52",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 62
     },
@@ -67,7 +67,7 @@
         "name": "DAVE (Dave Inc.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "361,09",
+        "price": "362,87",
         "msn_recommendation": "Kup",
         "analyst_count": 15
     },
@@ -75,7 +75,7 @@
         "name": "LEU (Centrus Energy Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "135,31",
+        "price": "134,28",
         "msn_recommendation": "Kup",
         "analyst_count": 19
     },
@@ -83,7 +83,7 @@
         "name": "KTOS (Kratos Defense & Security)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "41,62",
+        "price": "40,35",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 23
     },
@@ -91,7 +91,7 @@
         "name": "WGS (GeneDx Holdings Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "63,82",
+        "price": "64,96",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 8
     },
@@ -99,7 +99,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "126,40",
+        "price": "127,06",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
@@ -115,7 +115,7 @@
         "name": "MUR (MURAPOL)",
         "br_recommendation": "kupuj",
         "cd_k": "+21,63%",
-        "price": "36,65",
+        "price": "36,35",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
@@ -123,7 +123,7 @@
         "name": "ZAB (ZABKA)",
         "br_recommendation": "kupuj",
         "cd_k": "+75,00%",
-        "price": "31,69",
+        "price": "31,72",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -131,15 +131,15 @@
         "name": "PCO (PEPCO)",
         "br_recommendation": "kupuj",
         "cd_k": "+20,16%",
-        "price": "44,63",
+        "price": "45,10",
         "msn_recommendation": "Kup",
-        "analyst_count": 13
+        "analyst_count": 14
     },
     {
         "name": "PLTR (Palantir Technologies)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "823,40",
+        "price": "816,10",
         "msn_recommendation": "Kup",
         "analyst_count": 32
     },
@@ -147,7 +147,7 @@
         "name": "WPL (WIRTUALNA)",
         "br_recommendation": "akumuluj",
         "cd_k": "+25,53%",
-        "price": "56,50",
+        "price": "57,30",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
@@ -155,7 +155,7 @@
         "name": "AMZN (Amazon)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "259,53",
+        "price": "258,58",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 60
     }
