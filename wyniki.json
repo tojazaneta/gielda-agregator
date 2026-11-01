@@ -28,7 +28,7 @@
         "br_recommendation": "trzymaj",
         "cd_k": "+6,05%",
         "price": "80,60",
-        "msn_recommendation": "Zdecydowanie kup",
+        "msn_recommendation": "Kup",
         "analyst_count": 22
     },
     {
@@ -37,7 +37,7 @@
         "cd_k": "",
         "price": "344,63",
         "msn_recommendation": "Kup",
-        "analyst_count": 44
+        "analyst_count": 43
     },
     {
         "name": "NVDA (Nvidia)",
@@ -59,9 +59,9 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "279,84",
+        "price": "278,22",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 58
+        "analyst_count": 60
     },
     {
         "name": "DAVE (Dave Inc.)",
@@ -69,7 +69,7 @@
         "cd_k": "",
         "price": "316,79",
         "msn_recommendation": "Kup",
-        "analyst_count": 16
+        "analyst_count": 15
     },
     {
         "name": "LEU (Centrus Energy Corp.)",
@@ -77,7 +77,7 @@
         "cd_k": "",
         "price": "103,29",
         "msn_recommendation": "Kup",
-        "analyst_count": 19
+        "analyst_count": 20
     },
     {
         "name": "KTOS (Kratos Defense & Security)",
@@ -133,7 +133,7 @@
         "cd_k": "",
         "price": "743,20",
         "msn_recommendation": "Kup",
-        "analyst_count": 32
+        "analyst_count": 30
     },
     {
         "name": "WPL (WIRTUALNA)",
