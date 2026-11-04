@@ -3,7 +3,7 @@
         "name": "LPP",
         "br_recommendation": "kupuj",
         "cd_k": "+18,48%",
-        "price": "27 000,00",
+        "price": "26 220,00",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -27,7 +27,7 @@
         "name": "JMT (JERONIMO)",
         "br_recommendation": "trzymaj",
         "cd_k": "+6,05%",
-        "price": "80,60",
+        "price": "81,00",
         "msn_recommendation": "Kup",
         "analyst_count": 22
     },
@@ -35,7 +35,7 @@
         "name": "AAPL (Apple)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "338,32",
+        "price": "331,90",
         "msn_recommendation": "Kup",
         "analyst_count": 43
     },
@@ -43,7 +43,7 @@
         "name": "NVDA (Nvidia)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "202,06",
+        "price": "206,69",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 62
     },
@@ -51,7 +51,7 @@
         "name": "MSFT (Microsoft)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "507,12",
+        "price": "520,99",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 57
     },
@@ -59,15 +59,15 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "278,04",
+        "price": "280,03",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 60
+        "analyst_count": 58
     },
     {
         "name": "DAVE (Dave Inc.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "321,88",
+        "price": "314,72",
         "msn_recommendation": "Kup",
         "analyst_count": 16
     },
@@ -75,7 +75,7 @@
         "name": "LEU (Centrus Energy Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "94,90",
+        "price": "95,89",
         "msn_recommendation": "Kup",
         "analyst_count": 20
     },
@@ -83,7 +83,7 @@
         "name": "KTOS (Kratos Defense & Security)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "40,23",
+        "price": "40,99",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 25
     },
@@ -91,7 +91,7 @@
         "name": "WGS (GeneDx Holdings Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "64,09",
+        "price": "68,64",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 8
     },
@@ -99,7 +99,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "140,67",
+        "price": "138,13",
         "msn_recommendation": "Kup",
         "analyst_count": 24
     },
@@ -123,7 +123,7 @@
         "name": "PCO (PEPCO)",
         "br_recommendation": "kupuj",
         "cd_k": "+20,16%",
-        "price": "47,79",
+        "price": "48,13",
         "msn_recommendation": "Kup",
         "analyst_count": 14
     },
@@ -131,15 +131,15 @@
         "name": "PLTR (Palantir Technologies)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "737,00",
+        "price": "664,60",
         "msn_recommendation": "Kup",
-        "analyst_count": 32
+        "analyst_count": 33
     },
     {
         "name": "WPL (WIRTUALNA)",
         "br_recommendation": "akumuluj",
         "cd_k": "+25,53%",
-        "price": "56,50",
+        "price": "56,00",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
@@ -147,15 +147,15 @@
         "name": "AMZN (Amazon)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "245,63",
+        "price": "250,69",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 60
+        "analyst_count": 59
     },
     {
         "name": "REA (REA Group)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "166,16",
+        "price": "161,88",
         "msn_recommendation": "Kup",
         "analyst_count": 15
     }
