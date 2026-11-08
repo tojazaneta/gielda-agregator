@@ -37,7 +37,7 @@
         "cd_k": "",
         "price": "342,37",
         "msn_recommendation": "Kup",
-        "analyst_count": 43
+        "analyst_count": 44
     },
     {
         "name": "NVDA (Nvidia)",
@@ -53,15 +53,15 @@
         "cd_k": "",
         "price": "530,61",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 56
+        "analyst_count": 58
     },
     {
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "283,93",
+        "price": "284,78",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 60
+        "analyst_count": 58
     },
     {
         "name": "DAVE (Dave Inc.)",
@@ -149,7 +149,7 @@
         "cd_k": "",
         "price": "259,30",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 60
+        "analyst_count": 61
     },
     {
         "name": "REA (REA Group)",
