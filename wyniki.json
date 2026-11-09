@@ -59,9 +59,9 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "284,78",
+        "price": "283,93",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 58
+        "analyst_count": 60
     },
     {
         "name": "DAVE (Dave Inc.)",
@@ -139,7 +139,7 @@
         "name": "WPL (WIRTUALNA)",
         "br_recommendation": "akumuluj",
         "cd_k": "+25,53%",
-        "price": "55,00",
+        "price": "54,90",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 6
     },
@@ -155,7 +155,7 @@
         "name": "REA (REA Group)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "174,81",
+        "price": "173,54",
         "msn_recommendation": "Kup",
         "analyst_count": 15
     }
