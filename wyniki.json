@@ -5,7 +5,7 @@
         "cd_k": "+18,48%",
         "price": "28 700,00",
         "msn_recommendation": "Kup",
-        "analyst_count": 13
+        "analyst_count": 14
     },
     {
         "name": "DOM (DOMDEV)",
@@ -29,7 +29,7 @@
         "cd_k": "+6,05%",
         "price": "87,95",
         "msn_recommendation": "Kup",
-        "analyst_count": 21
+        "analyst_count": 22
     },
     {
         "name": "AAPL (Apple)",
@@ -59,9 +59,9 @@
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "295,77",
+        "price": "292,52",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 58
+        "analyst_count": 60
     },
     {
         "name": "DAVE (Dave Inc.)",
@@ -125,7 +125,7 @@
         "cd_k": "+20,16%",
         "price": "50,92",
         "msn_recommendation": "Kup",
-        "analyst_count": 14
+        "analyst_count": 12
     },
     {
         "name": "PLTR (Palantir Technologies)",
@@ -149,7 +149,7 @@
         "cd_k": "",
         "price": "266,66",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 61
+        "analyst_count": 62
     },
     {
         "name": "REA (REA Group)",
