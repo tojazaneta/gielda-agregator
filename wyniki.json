@@ -29,13 +29,13 @@
         "cd_k": "+6,05%",
         "price": "87,95",
         "msn_recommendation": "Kup",
-        "analyst_count": 22
+        "analyst_count": 21
     },
     {
         "name": "AAPL (Apple)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "352,45",
+        "price": "349,21",
         "msn_recommendation": "Kup",
         "analyst_count": 45
     },
@@ -43,7 +43,7 @@
         "name": "NVDA (Nvidia)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "150,96",
+        "price": "145,98",
         "msn_recommendation": "Kup",
         "analyst_count": 62
     },
@@ -51,15 +51,15 @@
         "name": "MSFT (Microsoft)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "508,29",
+        "price": "498,30",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 59
+        "analyst_count": 58
     },
     {
         "name": "GOOGL (Alphabet)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "279,20",
+        "price": "271,02",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 60
     },
@@ -67,7 +67,7 @@
         "name": "DAVE (Dave Inc.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "268,45",
+        "price": "237,57",
         "msn_recommendation": "Kup",
         "analyst_count": 16
     },
@@ -75,7 +75,7 @@
         "name": "LEU (Centrus Energy Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "91,75",
+        "price": "89,70",
         "msn_recommendation": "Kup",
         "analyst_count": 21
     },
@@ -83,7 +83,7 @@
         "name": "KTOS (Kratos Defense & Security)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "30,24",
+        "price": "29,65",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 25
     },
@@ -91,7 +91,7 @@
         "name": "WGS (GeneDx Holdings Corp.)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "51,96",
+        "price": "49,24",
         "msn_recommendation": "Zdecydowanie kup",
         "analyst_count": 8
     },
@@ -99,7 +99,7 @@
         "name": "STZ (Constellation Brands)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "143,62",
+        "price": "141,44",
         "msn_recommendation": "Kup",
         "analyst_count": 25
     },
@@ -147,15 +147,15 @@
         "name": "AMZN (Amazon)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "267,74",
+        "price": "257,37",
         "msn_recommendation": "Zdecydowanie kup",
-        "analyst_count": 62
+        "analyst_count": 61
     },
     {
         "name": "REA (REA Group)",
         "br_recommendation": "Kupuj",
         "cd_k": "",
-        "price": "162,89",
+        "price": "157,85",
         "msn_recommendation": "Kup",
         "analyst_count": 15
     }
